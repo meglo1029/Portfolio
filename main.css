@@ -6,7 +6,9 @@
 	padding: 15px 0 15px 0;
 	text-transform: uppercase;
 	position: fixed;
-    margin-bottom: 0;
+	top: 0;
+	  left: 0;
+	  z-index: 9999;
     background: white;
     list-style: none;
     width: 100%;
@@ -119,7 +121,7 @@ span.aboutmewhole1 {
     font-size: 62px;
     display: block;
     font-family: 'Gloria Hallelujah', cursive;
-   	padding: 10px 40px 0 40px;
+   	padding: 22px 40px 0 40px;
 }
 
 .individual {
@@ -135,7 +137,7 @@ span.aboutmewhole1 {
     display: block;
     font-family: 'Gloria Hallelujah', cursive;
     color: #A3E4D7;
-    padding: 10px 40px 0 40px;
+    padding: 60px 40px 0 40px;
 }
 
 .contact {
