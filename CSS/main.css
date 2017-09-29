@@ -20,7 +20,7 @@
 }
 
 .nav a:hover {
-	color: #A3E4D7;
+	color: #45B39D;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -46,7 +46,7 @@ span.social {
 }
 
 .introtext {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 92px;
     line-height: 90px;
     color: #E57373;
@@ -61,7 +61,7 @@ span.social {
 }
 
 .aboutmewhole {
-	background-color: #A3E4D7;
+	background-color: #45B39D;
 	color: white;
 	font-family: 'Muli', sans-serif;
 	padding: 25px 10px;
@@ -114,7 +114,7 @@ span.social {
 span.aboutmewhole1 {
     font-size: 62px;
     display: block;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Josefin Sans', sans-serif;
    	padding: 22px 40px 0 40px;
 }
 
@@ -129,18 +129,18 @@ span.aboutmewhole1 {
 .projectstitle {
 	font-size: 62px;
     display: block;
-    font-family: 'Gloria Hallelujah', cursive;
-    color: #A3E4D7;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #45B39D;
     padding: 60px 40px 0 40px;
 }
 
 .contact {
-	background: #A3E4D7;
+	background: #45B39D;
 	padding-bottom: 60px;
 }
 
 .contactme {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Josefin Sans', sans-serif;
     font-size: 62px;
     line-height: 90px;
     color: white;
@@ -157,7 +157,7 @@ span.aboutmewhole1 {
 }
 
 .megbtn {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
 }
 
@@ -168,11 +168,11 @@ span.aboutmewhole1 {
 }
 
 button.megbtn {
-    width: 255px;
-    height: 78px;
+    width: 225px;
+    height: 58px;
     border-radius: 56px;
     cursor: pointer;
-    font-size: 26px;
+    font-size: 20px;
     background: #E57373;
 }
 
@@ -187,7 +187,7 @@ button.megbtn {
 	}
 
 .skills {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 40px;
 }
 
