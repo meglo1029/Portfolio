@@ -1,0 +1,262 @@
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Muli', sans-serif;
+	padding: 15px 0 15px 0;
+	text-transform: uppercase;
+	position: fixed;
+    margin-bottom: 0;
+    background: white;
+    list-style: none;
+    width: 100%;
+}
+
+.nav a, a:visited  {
+    text-decoration: none; 
+    color: black;
+}
+
+.nav a:hover {
+	color: #A3E4D7;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.firsthalf a {
+	text-decoration: none;
+	font-color: black;
+}
+
+span.space {
+    padding-right: 40px;
+}
+
+span.social {
+    padding-right: 8px;
+}
+
+.intro {
+	background: url('background.png') no-repeat;
+	background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.introtext {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 92px;
+    line-height: 90px;
+    color: #E57373;
+    padding: 100px 0 0 50px;
+}
+
+.seperateintrotext {
+    color: black;
+    font-weight: 600;
+    padding: 40px 0 10px 65px;
+    font-size: 30px;
+}
+
+.aboutmewhole {
+	background-color: #A3E4D7;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	padding: 25px 10px;
+}
+
+.aboutmeinfo {
+    margin: 15px;
+    padding-top: 35px;
+}
+
+.aboutmebody {
+	display: flex;
+	padding: 18px;
+    text-align: center;
+}
+
+.aboutmeinfo2 {
+    padding-right: 15px;
+}
+
+
+.services {
+	font-family: 'Muli', sans-serif;
+}
+
+.hi {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    line-height: 25px;
+    padding: 35px 50px 0 50px;
+}
+
+.serviceIcons {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.servicesoffered {
+    font-size: 20px;
+
+}
+
+span.space2 {
+   padding: 35px 0px 15px 105px;
+}
+
+.servicesdescribe {
+    display: flex;
+    text-align: center;
+    padding: 20px 10px 40px 10px;
+}
+
+span.aboutmewhole1 {
+    font-size: 62px;
+    display: block;
+    font-family: 'Gloria Hallelujah', cursive;
+   	padding: 10px 40px 0 40px;
+}
+
+.individual {
+    padding: 50px;
+}
+
+.space3 {
+   padding: 15px;
+}
+
+.projectstitle {
+	font-size: 62px;
+    display: block;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #A3E4D7;
+    padding: 10px 40px 0 40px;
+}
+
+.contact {
+	background: url('backgroundtwo.jpg') no-repeat;
+	background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.contactme {
+	font-family: 'Gloria Hallelujah', cursive;
+    font-size: 92px;
+    line-height: 90px;
+    color: #E57373;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.contactmetext {
+	color: black;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.megbtn {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+.buttondiv {
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+}
+
+button.megbtn {
+    width: 300px;
+    height: 108px;
+    border-radius: 56px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+	.images{
+	    -webkit-transition: all 0.7s ease;
+		transition: all 0.7s ease;
+	}
+
+	.images img:hover {
+		-webkit-box-shadow: 0px 0px 15px 5px rgba(163,228,215,1);
+		box-shadow: 0px 0px 15px 5px rgba(163,228,215,1);
+	}
+
+.skills {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+}
+
+.skillitem {
+	display: block;
+}
+
+
+
+@media (max-width: 699px) {
+
+	.hi {
+		font-size: 20px;
+	}
+
+	span.aboutmewhole1{
+    	font-size: 32px;
+	}
+
+	.aboutmeinfo {
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.projectstitle {
+    font-size: 32px;
+	}
+
+	.contactme {
+    	font-size: 52px;
+    }
+
+    .contactmetext {
+		font-size: 16px;
+    }
+
+    button.megbtn {
+	    width: 260px;
+	    height: 78px;
+	    cursor: pointer;
+	    font-size: 20px;
+	}
+
+	.introtext {
+	    font-size: 52px;
+	    line-height: 60px;
+	  }
+
+	  .seperateintrotext {
+		font-size: 20px;
+	  }
+
+	  .nav {
+	  	display: inline-block;
+	  }
+
+  .firsthalf {
+	    display: inline-block;
+	    padding: 5px;
+	    font-size: 12px;
+	}
+
+	span.space2 {
+	    padding: 5px;
+	    text-align: center;
+	 }
+}
