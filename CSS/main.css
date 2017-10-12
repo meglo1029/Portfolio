@@ -274,6 +274,7 @@ button.megbtn {
 .viewlive {
 	display: block;
 	text-align: center;
+	padding-top: 20px;
 }
 
 @media (max-width: 699px) {
