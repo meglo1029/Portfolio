@@ -232,6 +232,49 @@ button.megbtn {
   transform: translateY(-4px);
 }
 
+.appconcept {
+	display: block;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.appconceptText {
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.styleguidepic {
+	height: auto;
+	max-width: 100%;
+}
+
+.styleguide {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	padding: 100px 0 50px 0;
+
+}
+
+.aboutApp {
+	display: block;
+	text-align: center;
+	padding: 50px;
+}
+
+.appconceptexample {
+	padding-bottom: 100px;
+}
+
+.viewlive a {
+	text-decoration: none;
+}
+
+.viewlive {
+	display: block;
+	text-align: center;
+}
 
 @media (max-width: 699px) {
 
