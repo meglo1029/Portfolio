@@ -277,6 +277,11 @@ button.megbtn {
 	padding-top: 20px;
 }
 
+.appdesign {
+	height: auto;
+	max-width: 100%;
+}
+
 @media (max-width: 699px) {
 
 	.hi {
